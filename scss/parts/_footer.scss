@@ -1,0 +1,43 @@
+.footer {
+
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    align-content: stretch;
+    margin-bottom: 45px;
+    padding-top: 210px;
+
+    &-banner {
+        position: relative;
+        background-image: url('../img/footer-banner.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    &__description {
+        display: inline-block;
+        padding-bottom: 210px;
+        font-size: 14px;
+        color: $white;
+
+        &:first-child {
+            //padding-right: 20px;
+        }
+
+        &:not(:last-child)::after {
+            content: "|";
+            display: inline-block;
+            margin: 0 20px;
+        }
+    }
+    
+}
+
+.grid-footer {
+    width: 770px;
+    margin: 0 auto;
+    padding: 0 40px;
+}

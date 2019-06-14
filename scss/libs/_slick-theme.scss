@@ -1,0 +1,46 @@
+/* Arrows */
+
+.slick-prev,
+.slick-next {
+    
+}
+
+.slick-prev {
+    
+}
+
+.slick-next {
+    
+}
+
+/* Dots */
+
+.slick-dotted.slick-slider {
+    
+}
+
+.slick-dots {
+    list-style: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slider-dot {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 20px 0;
+    border-radius: 50%;
+    border: 2px solid $white;
+    
+
+    .slick-active & {
+        background-color: $white;
+    }
+}

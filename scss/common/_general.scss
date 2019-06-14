@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gotham-medium' !important;
+}
+
+h1 {
+    font-family: 'gothambold1' !important;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: $white;
+}
+
+h2 {
+    font-size: 44px;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: 'GothamBook' !important;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'GothamBook' !important;
+    font-size: 18px;
+}
+
+.grid {
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}

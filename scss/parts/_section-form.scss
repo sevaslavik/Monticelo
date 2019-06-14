@@ -1,0 +1,56 @@
+.section-form {
+    position: absolute;
+    bottom: 30%;
+    right: 28%;
+    width: 770px;
+    padding: 40px;
+    padding-top: 0;
+    margin: 0 auto;
+    background-image: url('../img/bg-form2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 10;
+
+    &__conteiner {
+        position: relative;
+    }
+    
+    &__col {
+        display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    justify-content: flex-start;
+	    align-items: stretch;
+        align-content: stretch;
+        text-align: left;
+    }
+
+    &__info {
+        padding-bottom: 40px;
+        font-size: 18px;
+    }
+
+    &__input {
+        width: 100%;
+        margin-bottom: 35px;
+        padding-bottom: 20px;
+        font-size: 18px;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid $darckblue;
+    }
+
+    &__submit {
+        margin-left: 170px;
+        padding: 20px 40px;
+        font-size: 18px;
+        color: $darckblue;
+        background: transparent;
+        border: 2px solid $darckblue;
+    }
+}
+
+.purple {
+    color: $purple; 
+}

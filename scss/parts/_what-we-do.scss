@@ -1,0 +1,104 @@
+.what-we-do {
+
+    &__title {
+        position: relative;
+        margin-bottom: 160px;
+        padding-top: 138px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            right: 35%;
+            display: block;
+            width: 100px;
+            height: 2px;
+            background-color: #000;
+            z-index: 10;
+        }
+
+        &--margin {
+            margin-bottom: 60px;
+            padding-top: 88px;
+        }
+    }
+
+    &__row {
+        margin-bottom: 140px;
+        text-align: left;
+
+        &:not(:last-child) {
+            margin-bottom: 210px;
+        }
+    }
+
+    &__col {
+
+        &--banner {
+            position: relative;
+            padding-right: 70px;
+            z-index: 1;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: -20%;
+                left: -40%;
+                display: block;
+                width: 585px;
+                height: 470px;
+                background-color: $lightblue;
+                z-index:-10;
+            }
+
+            &-1 {
+                position: relative;
+                padding-left: 70px;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: -20%;
+                    right: -40%;
+                    display: block;
+                    width: 585px;
+                    height: 470px;
+                    background-color: $purple;
+                    z-index: -5;
+                }
+            }
+        }
+
+        &--new-york {
+            padding-right: 60px;
+        }
+    }
+
+    &__description {
+        padding-top: 56px;
+    }
+
+    &__centers {
+        margin-bottom: 40px;
+        padding-top: 15px;
+    }
+
+    &__info {
+        margin-bottom: 40px;
+        line-height: 25px;
+    }
+
+    &__link {
+        padding: 18px 40px;
+        text-transform: uppercase;
+        color: $darckblue;
+        border: 1px solid $darckblue;
+    }
+
+    &__adres {
+        display: block;
+        padding-top: 70px;
+        font-family: 'Open Sans', serif;
+        font-style: italic;
+    }
+}

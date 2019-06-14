@@ -1,0 +1,45 @@
+.latest-news {
+    position: relative;
+    
+    background-image: url(../img/Bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &__row {
+        
+        padding-bottom: 200px;
+        text-align: left;
+    }
+
+    &__title {
+        position: relative;
+        margin-bottom: 160px;
+        padding-top: 138px;
+        color: $white;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            right: 35%;
+            display: block;
+            width: 100px;
+            height: 2px;
+            background-color: $white;
+            z-index: 10;
+        }
+    }
+}
+
+    
+
+.slider-item {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+    align-content: stretch;
+    
+}

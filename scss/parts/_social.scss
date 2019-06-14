@@ -1,0 +1,29 @@
+.social {
+
+//    z-index: 2;
+
+    &__list {
+        display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    justify-content: space-between;
+	    align-items: center;
+        align-content: stretch;
+
+        
+    }
+
+    &__item {
+
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+    }
+
+    &__link {
+        padding: 10px 12px;
+        border: 1px solid $white;
+        border-radius: 50%;
+        color: $white;
+    }
+}

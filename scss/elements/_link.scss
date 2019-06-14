@@ -1,0 +1,13 @@
+.link {
+    position: absolute;
+    bottom: 15%;
+    padding: 18px;
+    color: $white;
+    border: 1px solid $white;
+    border-radius: 50%;
+    z-index: 1;
+
+    &-conteiner {
+        padding-bottom: 140px;
+    }
+}

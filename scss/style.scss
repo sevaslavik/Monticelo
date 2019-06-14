@@ -1,0 +1,30 @@
+@import "_variables";
+@import "_mixins";
+@import "elements/fonts";
+
+//commons
+
+@import "common/general";
+
+//libs
+
+@import "libs/slick";
+@import "libs/slick-theme";
+
+//elements
+
+@import "elements/link";
+@import "elements/banner-elements";
+@import "elements/sliderTwo";
+@import "elements/map";
+
+//parts
+
+@import "parts/header";
+@import "parts/nav";
+@import "parts/social";
+@import "parts/what-we-do";
+@import "parts/letestNews";
+@import "parts/gallery";
+@import "parts/section-form";
+@import "parts/footer";

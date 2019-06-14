@@ -1,0 +1,43 @@
+.nav {
+    margin-right: 85px;
+//    z-index: 3;
+    
+    &__list {
+        display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    justify-content: space-between;
+	    align-items: center;
+        align-content: stretch;
+    }
+
+    &__item {
+        display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    justify-content: space-between;
+	    align-items: center;
+        align-content: stretch;
+        
+        &:not(:last-child){
+            margin-right: 65px;
+        }
+    }
+
+    &__link {
+        text-transform: uppercase;
+        color: $white;
+    }
+
+    &__point {
+        width: 8px;
+        height: 8px;
+        margin-right: 15px;
+        border: 1px solid $white;
+        border-radius: 50%;
+    }
+}
+
+.active {
+    background-color: $white;
+}

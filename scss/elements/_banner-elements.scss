@@ -1,0 +1,40 @@
+.banner-wrapper {
+    position: relative;
+    height: 110vh;
+}
+
+.title {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    z-index: 3;
+}
+
+.description {
+    position: absolute;
+    top: 55%;
+    left: 33%;
+    z-index: 4;
+    font-size: 18px;
+    font-weight: 300;
+    color: $white;
+}
+
+.slider {
+    width: 100%;
+    //padding: -20px;
+}
+
+.logo {
+    margin-right: 89px;
+//    z-index: 4;
+}
+
+.dots {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    margin: 0;
+    z-index: 6;
+    
+}
